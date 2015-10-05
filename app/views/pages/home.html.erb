@@ -1,0 +1,14 @@
+<hl> Users: </hl>
+<% @users.each do |u| %>
+	<p><%= u.username %>  </p>
+<% end %>
+
+<hl> Cats: </hl>
+<% @cats.each do |u| %>
+	<p><%= u.name %>  </p>
+<% end %>
+
+<hl> Tasklist: </hl>
+<% @todos.each do |u| %>
+	<p><%= u.tasks %>  </p>
+<% end %>
